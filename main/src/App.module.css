@@ -1,0 +1,18 @@
+.wrapper {
+  margin-top: 85px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 12% 1fr 12%;
+}
+
+.block1 {
+  background: #ac6b6b;
+}
+
+.block2 {
+  background: #6bac9d;
+}
+
+.block3 {
+  background: #aa6bac;
+}

@@ -1,0 +1,98 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-bottom: 45px;
+}
+
+.mainNewsBlock {
+  display: grid;
+  gap: 3rem;
+}
+
+.mainNewsBlock img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainNewsHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainNewsHeader h1 {
+  width: 290px;
+
+  font-size: 4.8rem;
+  font-weight: 800;
+}
+
+.mainNewsInfo {
+  display: grid;
+}
+
+.mainNewsInfo p {
+  line-height: 2.3rem;
+}
+
+.mainNewsInfo button {
+  padding: 13px 30px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  background-color: #f15d51;
+  letter-spacing: 0.5rem;
+  border: none;
+  justify-self: start;
+  align-self: flex-end;
+}
+
+.newsListBlock {
+  width: 100%;
+  height: 100%;
+  background-color: #00001a;
+  padding: 30px 30px;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+}
+
+.newsListBlock ul {
+  padding: 0;
+  display: grid;
+  height: 100%;
+  margin: 0;
+}
+
+.newsListBlock li {
+  padding: 0;
+  list-style-type: none;
+  align-self: center;
+  padding: 35px 0;
+}
+
+.newsListBlock a {
+  padding: 0;
+  text-decoration: none;
+}
+
+.borders {
+  border-top: 1px solid rgba(197, 198, 206, 0.85);
+  border-bottom: 1px solid rgba(197, 198, 206, 0.85);
+}
+
+.newsListBlock h2 {
+  font-size: 3.8rem;
+  color: #e9ab53;
+}
+
+.newsListBlock h3 {
+  font-size: 2rem;
+  color: #fffdfa;
+  font-weight: 700;
+}
+
+.newsListBlock p {
+  color: rgba(197, 198, 206, 0.85);
+}

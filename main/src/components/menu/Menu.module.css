@@ -1,0 +1,12 @@
+.list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 40px;
+  align-self: center;
+}
+
+.listItem {
+}
+
+.listItem > a {
+}

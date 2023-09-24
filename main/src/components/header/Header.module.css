@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 55px;
+}
+.logoContainer {
+  display: grid;
+}
+.menuContainer {
+  display: grid;
+  justify-self: end;
+}

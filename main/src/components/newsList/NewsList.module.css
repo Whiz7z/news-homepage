@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+}
+
+.container ul {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.container ul li {
+  list-style-type: none;
+}
+
+.newsItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+.newsItem img {
+  width: 105px;
+  height: 130px;
+}
+
+.newsItem h4 {
+  color: hsl(240, 100%, 5%);
+  font-size: 1.7rem;
+}
+
+.number {
+  font-size: 2.7rem;
+  color: rgba(197, 198, 206, 0.85);
+  font-weight: 800;
+}
+
+.subTitle {
+  color: rgba(197, 198, 206, 1);
+}
